@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "914111424352",
+    "project_id": "five-feat",
+    "storage_bucket": "five-feat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914111424352:android:82fbb582e866eaca50e005",
+        "android_client_info": {
+          "package_name": "com.ziyad.fivefeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914111424352-bgut3h286bia1aaakuq2f3r527c0bqec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ziyad.fivefeat",
+            "certificate_hash": "d48c39cd7be0c9563b3de0efcbaaee27ab7a809d"
+          }
+        },
+        {
+          "client_id": "914111424352-hnj1mk8m15ja7m6au6kdmtn4cqtgh674.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8ZN9SuYyvaleZdG6Dc1zifNMQrz_1DQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914111424352-hnj1mk8m15ja7m6au6kdmtn4cqtgh674.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

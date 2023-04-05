@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_restaurant"
+    app:startDestination="@+id/navigation_home_restaurant">
+
+    <fragment
+        android:id="@+id/navigation_home_restaurant"
+        android:name="com.ziyad.fivefeat.main.restaurant.ui.order.OrderFragment"
+        android:label="@string/title_home_restaurant"
+        tools:layout="@layout/fragment_order_restaurant" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard_restaurant"
+        android:name="com.ziyad.fivefeat.main.restaurant.ui.menu.MenuFragment"
+        android:label="@string/title_menu"
+        tools:layout="@layout/fragment_menu" />
+
+    <fragment
+        android:id="@+id/navigation_notifications_restaurant"
+        android:name="com.ziyad.fivefeat.main.restaurant.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

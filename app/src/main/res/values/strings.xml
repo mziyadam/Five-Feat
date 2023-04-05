@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Five Feat</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Five Feat</string>
+    <string name="title_order">Order</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">Ongoing</string>
+    <string name="tab_text_2">History</string>
+    <string name="register_underline">register</string>
+    <string name="login_underline">login</string>
+    <string name="home">Home</string>
+    <string name="title_activity_home_restaurant">HomeRestaurantActivity</string>
+    <string name="title_dashboard">Menu</string>
+    <string name="title_notifications">Settings</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_home_restaurant">Five Feat for Restaurant</string>
+</resources>

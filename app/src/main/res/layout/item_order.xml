@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:cardElevation="4dp"
+    android:layout_marginBottom="2dp"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_menu_photo"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_menu_name"
+            style="@style/Heading3.bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            tools:text="Hotang Spesial"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_menu_photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/iv_menu_photo"
+            app:layout_constraintTop_toTopOf="@+id/iv_menu_photo"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/tv_menu_price"
+            style="@style/Heading2.bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="16dp"
+            android:layout_marginEnd="32dp"
+            android:gravity="end"
+            tools:text="Rp. 20.000"
+            android:textColor="@color/cyan"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.507" />
+
+        <TextView
+            android:id="@+id/tv_menu_price_single"
+            android:layout_width="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:text="Rp. 20.000"
+            app:layout_constraintStart_toStartOf="@+id/tv_menu_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_menu_name" />
+
+        <TextView
+            android:id="@+id/tv_menu_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/tv_menu_price_single"
+            app:layout_constraintTop_toBottomOf="@+id/tv_menu_price_single"
+            tools:text="1 pcs" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

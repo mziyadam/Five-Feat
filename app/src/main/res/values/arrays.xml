@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="state_array">
+        <item>Queue</item>
+        <item>Ready</item>
+        <item>Done</item>
+    </string-array>
+</resources>
