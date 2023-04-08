@@ -6,12 +6,12 @@
         android:title="@string/home" />
 
     <item
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_order"
         android:icon="@drawable/ic_baseline_storefront_24"
         android:title="@string/title_order" />
 
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_setting"
         android:icon="@drawable/ic_outline_settings_24"
         android:title="@string/title_settings" />
 
